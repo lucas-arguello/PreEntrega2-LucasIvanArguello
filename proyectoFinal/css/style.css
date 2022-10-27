@@ -116,9 +116,11 @@ footer {
 
 /*PAGINA- ESPECIALIDADES*/
 
-.profesiones__title {
+.profesiones__titulo {
   padding-top: 5rem;
   text-align: center;
+  font-weight: 600;
+  font-size: 3rem;
   
 }
 .profesiones__card {
@@ -128,7 +130,7 @@ footer {
   padding-bottom: 3rem;
 }
 .profesiones__title {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .profesiones__img {
