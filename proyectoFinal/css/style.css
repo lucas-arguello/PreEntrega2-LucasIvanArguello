@@ -121,7 +121,6 @@ footer {
   text-align: center;
   font-weight: 600;
   font-size: 3rem;
-  
 }
 .profesiones__card {
   display: flex;
@@ -146,20 +145,24 @@ footer {
 }
 
 /*PAGINA- CONTACTO*/
-
+.contacto__container,
+.preguntas__container {
+  /*-- animacion ---*/
+  animation: from-right 2s ease;
+}
 /*PAGINA- COMO FUNCIONA*/
 .funciona__container,
 .testi__container {
   font-size: 1.5rem;
 }
-.testi__container{
+.testi__container {
   padding: 3rem 0 2rem 0;
 }
-.funciona__container--texto{
+.funciona__container--texto {
   margin: 2rem 0;
   width: 100%;
 }
-.funciona__container--video{
+.funciona__container--video {
   width: 100%;
 }
 
@@ -198,7 +201,7 @@ footer {
   .contacto__area {
     height: 5%;
   }
-  .funciona__container{
+  .funciona__container {
     display: flex;
   }
 }
